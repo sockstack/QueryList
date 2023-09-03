@@ -5,8 +5,8 @@
     "homepage": "http://querylist.cc",
     "require": {
         "PHP":">=7.1",
-        "jaeger/phpquery-single": "^1",
-        "jaeger/g-http": ">=1.1",
+        "jaeger/phpquery-single": ">=1",
+        "sockstack/g-http": "dev-main",
         "ext-dom": "*",
         "tightenco/collect": ">5.0"
     },
