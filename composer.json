@@ -6,7 +6,7 @@
     "require": {
         "PHP":">=7.1",
         "jaeger/phpquery-single": ">=1",
-        "sockstack/g-http": "*",
+        "sockstack/g-http": "dev-master",
         "ext-dom": "*",
         "tightenco/collect": ">5.0"
     },
@@ -36,6 +36,5 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit"
-    },
-    "minimum-stability": "RC"
+    }
 }
